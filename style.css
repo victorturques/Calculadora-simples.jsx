@@ -1,0 +1,79 @@
+.calculadora {
+    display: grid;
+    grid-row: repeat (4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 22px;
+    border-radius: 15px;    
+}
+
+.display{
+    grid-column: 1/ span 4;
+    background: white;
+    border-radius: 10px;
+
+}
+
+h1.resultadoFinal {
+    font-size: 50px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: black;
+    justify-content: flex-end;
+    
+}
+
+button {    
+    font-family:system-ui ;
+    font-weight: 500;
+    text-align: center;
+    width: 55px;
+    height: 45px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+button:active {
+    background-color: gray;
+    color: white;
+}
+
+.operacoes {
+  
+    background-color: blue;
+    color: white;
+   
+}
+
+.operacoes:hover {
+    background-color: royalblue;
+}
+
+.operacoes:active {
+    background-color: skyblue;
+    color: black;
+}
+
+ #igual {
+     width: 372%;
+     
+}
+
+.resultadoFinal {
+    font-size: 60px;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    overflow-wrap:break-word;
+}
